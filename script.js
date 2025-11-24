@@ -6,6 +6,7 @@ const items =itemList.querySelectorAll('li');
 const itemFilter = document.getElementById('filter');
 
 // I kept getting a bunch of errors here only to learn I was miss typing words
+// SM - Yes, careful with spelling and capitalization; JavaScript is case-sensitive.
 function addItem(e) {
     e.preventDefault();
 
@@ -71,3 +72,5 @@ clearBtn.addEventListener('click', clearItems);
 checkUI();
 //Okay I am now lost Nothing is disappeaing and I am not understanding what he is doing to get it to disapear let alone how to do it myself.
 //Okay after reloading the page it works but because I dont know why it works I have to stop here. I really thought I could get more then this done.
+// SM - its okay; this was not the best tutorial; he changes things without explaining well.
+// I think I need to find someone who explains things a bit slower and in more detail.
